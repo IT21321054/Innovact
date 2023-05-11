@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">projectmad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">You can discuss about purchasing procedure with the innovator. Click below button to see the contact details.</string>
+    <string name="Procedure">Procedure to Buy</string>
+    <string name="Button">About the Innovator</string>
+    <string name="topic">Automatic Striping Pliers Knife - TI0050</string>
+    <string name="price">$5</string>
+    <string name="description">Great for CAT-5, CAT-5e, and CAT-6 data cable.  Plastic punch down tool.</string>
+    <string name="button1">INTERESTED</string>
+    <string name="button2">Rate Product</string>
+    <string name="button3">ADD TO WISHLIST</string>
+    <string name="item">Automatic Striping Pliers Knife - TI0050</string>
+    <string name="itemprice">$5</string>
+    <string name="itemdescription">Great for CAT-5, CAT-5e, and CAT-6 data cable.  Plastic punch down tool.</string>
+    <string name="button01">INTERESTED</string>
+    <string name="button02">Rate Product</string>
+    <string name="button03">ADD TO WISHLIST</string>
+    <string name="wishlist">Your Wishlist</string>
+    <string name="item1">TL0050 - Stripping Pliers Knife</string>
+    <string name="date1">09/03/2023</string>
+    <string name="item1button">Remove</string>
+    <string name="item2">TL0051 - Wireless Mouse</string>
+    <string name="item3">B0052 - Pocket Mirror</string>
+    <string name="item4">H0053 - Hand Sanitizer</string>
+    <string name="date2">30/01/2023</string>
+    <string name="date3">12/01/2023</string>
+    <string name="date4">30/12/2022</string>
+    <string name="item2button">Remove</string>
+    <string name="item3button">Remove</string>
+    <string name="item4button">Remove</string>
+    <string name="topicrating">Product Ratings</string>
+    <string name="descriptionrate">You can rate this product by giving the stars according to your overview.</string>
+</resources>

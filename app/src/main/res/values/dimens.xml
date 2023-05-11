@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    //picturesize-->
+    <dimen name="picheight">212dp</dimen>
+    <dimen name="picwidth">184dp</dimen>
+<!--    //topics-->
+    <dimen name="topicheight">83dp</dimen>
+    <dimen name="topicwigth">193dp</dimen>
+    <dimen name="tpictextsize">20sp</dimen>
+    <dimen name="priceheight">37dp</dimen>
+    <dimen name="priceweight">193dp</dimen>
+    <dimen name="widthoftext">195dp</dimen>
+    <dimen name="textsizeoftext">14dp</dimen>
+<!--    //buttons-->
+    <dimen name="button1w">150dp</dimen>
+    <dimen name="button1h">40dp</dimen>
+    <dimen name="button2w">150dp</dimen>
+    <dimen name="button2h">60dp</dimen>
+    <dimen name="aboutinnobutton_w">200dp</dimen>
+    <dimen name="aboutinnobutton_h">65dp</dimen>
+    <dimen name="wishlistremovebutton_w">112dp</dimen>
+    <dimen name="wishlistremovebutton_h">37dp</dimen>
+<!--    //navbaricons-->
+    <dimen name="icon_width">40dp</dimen>
+    <dimen name="icon_height">40dp</dimen>
+<!--    //ratingbar-->
+    <dimen name="ratingbar_w">240dp</dimen>
+    <dimen name="ratingbar_h">48dp</dimen>
+</resources>
