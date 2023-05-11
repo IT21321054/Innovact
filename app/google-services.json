@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338566297256",
+    "project_id": "innovact-c37eb",
+    "storage_bucket": "innovact-c37eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338566297256:android:4f5acc8fc8b1570283349d",
+        "android_client_info": {
+          "package_name": "com.example.Innovact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338566297256-dj8b57g2koq6a9ve7p4k7j1mlqsctqj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZ0hJtZ_HD7T_VPNf1MFaY4Uz34n_TxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338566297256-dj8b57g2koq6a9ve7p4k7j1mlqsctqj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
