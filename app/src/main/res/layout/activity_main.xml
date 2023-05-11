@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/innovact"
+        android:layout_width="120dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/innovact" />
+
+    <ImageView
+        android:id="@+id/dehaze"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dehaze" />
+
+    <TextView
+        android:id="@+id/submitproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="SUBMIT A PRODUCT"
+        android:textColor="#444040"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dehaze" />
+
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitproduct"
+        android:layout_margin="18dp"
+        android:hint="Product Name"
+        android:padding="18dp"
+        android:textColor="#444040"
+        android:textColorHint="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/pcat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/submitproduct"
+        app:layout_constraintTop_toBottomOf="@+id/submitproduct"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:id="@+id/pcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pname"
+        android:layout_margin="18dp"
+        android:hint="Product Category"
+        android:padding="18dp"
+        android:textColorHint="#444040"
+        android:textColor="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/iname"
+        app:layout_constraintTop_toBottomOf="@+id/pname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="289dp" />
+
+
+    <EditText
+        android:id="@+id/iname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pcat"
+        android:layout_margin="18dp"
+        android:hint="Innovator Name"
+        android:padding="18dp"
+        android:textColor="#444040"
+        android:textColorHint="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/ades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pcat" />
+
+    <EditText
+        android:id="@+id/ades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iname"
+        android:layout_margin="18dp"
+        android:hint="Additional Description"
+        android:padding="18dp"
+        android:textColor="#444040"
+        android:textColorHint="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/pprice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iname" />
+
+    <EditText
+        android:id="@+id/pprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ades"
+        android:layout_margin="18dp"
+        android:layout_marginTop="116dp"
+        android:hint="Product Price"
+        android:padding="18dp"
+        android:textColor="#444040"
+        android:textColorHint="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/upics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ades" />
+
+    <Button
+        android:id="@+id/upics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5B507"
+        android:text="Upload"
+        android:textColor="#444040"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pprice"
+        app:layout_constraintTop_toBottomOf="@+id/pprice" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5B507"
+        android:text="SUBMIT"
+        android:textColor="#444040"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="630dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/upics"
+        app:layout_constraintTop_toBottomOf="@+id/upics"/>
+
+    <ImageView
+        android:id="@+id/bc"
+        android:layout_width="445dp"
+        android:layout_height="419dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="-200dp"
+        android:layout_marginBottom="-250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_circle_25" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="155dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="-70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_circle_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
