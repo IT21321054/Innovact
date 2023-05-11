@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //footer icons
+    <dimen name ="Footer_icon_width">102.75dp </dimen>
+    <dimen name ="Footer_icon_height">58dp </dimen>
+
+    //icon toobar
+    <dimen name="Toolbar_width">411dp</dimen>
+    <dimen name="Toolbar_height">56dp</dimen>
+
+    //input box
+    <dimen name="Input_box_width">310dp</dimen>
+    <dimen name="Input_box_height">48dp</dimen>
+
+</resources>

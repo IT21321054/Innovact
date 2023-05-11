@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Platinum_White"
+    tools:context=".Login_signUp">
+
+    <ImageView
+        android:id="@+id/Icon"
+        android:layout_width="271dp"
+        android:layout_height="287dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@mipmap/innovact_img_nw" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="241dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/main_yellow"
+        android:text="@string/Loginn"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpAsInnovator"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+    <Button
+        android:id="@+id/SignUpAsInnovator"
+        android:layout_width="245dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/main_yellow"
+        android:text="@string/Sign_in"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Icon" />
+
+    <Button
+        android:id="@+id/SignUpAsBuyer"
+        android:layout_width="245dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/main_yellow"
+        android:text="@string/Sign_up_buyer"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpAsInnovator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

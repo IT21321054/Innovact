@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152568793327",
+    "firebase_url": "https://mymad-4eaf6-default-rtdb.firebaseio.com",
+    "project_id": "mymad-4eaf6",
+    "storage_bucket": "mymad-4eaf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152568793327:android:ceff2b6cc2ec3cd4b1331a",
+        "android_client_info": {
+          "package_name": "com.example.mymad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152568793327-rjkldahep9faar1v8cr5uj4dj234l085.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpKVKpkaV_iNd1HvhhVoFxUN-RRnuEQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152568793327-rjkldahep9faar1v8cr5uj4dj234l085.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

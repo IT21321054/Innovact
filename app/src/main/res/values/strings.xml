@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Mymad</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="log_uname">Enter your username</string>
+    <string name="log_pw">Enter your password</string>
+    <string name="Password">Password</string>
+    <string name="Login_btn">Login</string>
+    <string name="update_photo">Update Photo</string>
+    <string name="fullName">Full name</string>
+    <string name="email">Email</string>
+    <string name="NIC">NIC</string>
+    <string name="contact_no">Contact No</string>
+    <string name="DOB">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="my_profile">My Profile</string>
+    <string name="pre_work">Previous Work</string>
+    <string name="edt_profile">Edit Profile</string>
+    <string name="chg_pass">Change Password</string>
+    <string name="dlt_acc">Delete Account</string>
+    <string name="cur_pass">Current Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="cnfr_pass">Confirm Password</string>
+    <string name="back">Back</string>
+    <string name="update">Update</string>
+    <string name="edt_pht">Edit Photo</string>
+    <string name="fname">Enter your name</string>
+    <string name="edtemail">Enter your email</string>
+    <string name="edtNIC">Enter your NIC</string>
+    <string name="Edt_phone">Enter your phone No</string>
+    <string name="prework">Update your working experience</string>
+    <string name="pre_working">Update  your previous working experience</string>
+    <string name="InnoCreate">Innovator profile creation</string>
+    <string name="buyercreation">"Buyer profile creation "</string>
+    <string name="buyerProCreation">Buyer Profile Creation</string>
+    <string name="BuyerFullName">Full Name</string>
+    <string name="buyerFullname">Enter Your Full name</string>
+    <string name="buyerPhoto">Upload Photo</string>
+    <string name="buyerEmail">Email</string>
+    <string name="buyer_Email">Enter your email</string>
+    <string name="buyer_phone">Phone No</string>
+    <string name="Buyer_phone">Enter your Phone number</string>
+    <string name="buyerAddress">Enter your address</string>
+    <string name="Buyer_Address">Enter your address</string>
+    <string name="uploadButton">Upload Photo</string>
+    <string name="buyerEditProfile">Edit profile as a buyer</string>
+    <string name="BuyerEditPhoto">Edit photo</string>
+    <string name="as_innovator">as a innovator</string>
+    <string name="AddProduct">ADD PRODUCT</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="buyer_Address">Address</string>
+    <string name="Sign_in">Sign Up as Innovator</string>
+    <string name="Sign_up_buyer">Sign Up as Buyer</string>
+    <string name="Loginn">Login</string>
+    <string name="EnterEmail">Enter your email</string>
+    <string-array name="dob_drop">
+        <item>2022/01/01</item>
+        <item>2021/01/01</item>
+        <item>2020/01/01</item>
+        <item>2019/01/01</item>
+        <item>2018/01/01</item>
+    </string-array>
+    <string-array name="gender_input">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
